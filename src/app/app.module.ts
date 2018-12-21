@@ -9,13 +9,17 @@ import { environment } from '../environments/environment';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SharepageComponent } from './sharepage/sharepage.component';
+import { LayoutComponent } from './ui/layout/layout.component';
+import { HomeComponent } from './ui/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SharepageComponent
+    SharepageComponent,
+    LayoutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LayoutComponent } from './ui/layout/layout.component';
-import { SharepageComponent } from './sharepage/sharepage.component';
 import { HomeComponent } from './ui/home/home.component';
+import { ShareCategoryComponent } from './ui/share-category/share-category.component';
 
 const routes: Routes = [
   {
@@ -10,8 +9,8 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'sharepage/:name',
-    component: SharepageComponent
+    path: 'share/:id',
+    component: ShareCategoryComponent
   }
 ];
 

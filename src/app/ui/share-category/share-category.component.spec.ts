@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SharepageComponent } from './sharepage.component';
+import { ShareCategoryComponent } from './share-category.component';
 
-describe('SharepageComponent', () => {
-  let component: SharepageComponent;
-  let fixture: ComponentFixture<SharepageComponent>;
+describe('ShareCategoryComponent', () => {
+  let component: ShareCategoryComponent;
+  let fixture: ComponentFixture<ShareCategoryComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SharepageComponent ]
+      declarations: [ ShareCategoryComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SharepageComponent);
+    fixture = TestBed.createComponent(ShareCategoryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

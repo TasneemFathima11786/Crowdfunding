@@ -8,18 +8,18 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { SharepageComponent } from './sharepage/sharepage.component';
 import { LayoutComponent } from './ui/layout/layout.component';
 import { HomeComponent } from './ui/home/home.component';
+import { ShareCategoryComponent } from './ui/share-category/share-category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SharepageComponent,
     LayoutComponent,
-    HomeComponent
+    HomeComponent,
+    ShareCategoryComponent
   ],
   imports: [
     BrowserModule,

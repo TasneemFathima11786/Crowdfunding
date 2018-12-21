@@ -1,21 +1,221 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<app-header></app-header>
 
+<!--The content below is only a placeholder and can be replaced.-->
+<div  class=" container">
+<div style="text-align:center" class=" col-md-10 offset-md-1 pd-all">
+  <h5 style=" color:#0A2F5A;">
+      Select Category to start your Fundraising
+  </h5>
+</div>
+<div>
+   
+    <div class="row     col-md-10 offset-md-1">
+        <div class="col-lg-2 col-md-2 mb-4 "> 
+                <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/adoption.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Adoption</figcaption>
+                        </figure>
+                </button>
+            
+            </div>
+        <div class="col-lg-2 col-md-2 mb-4"> 
+            <a routerLink="/sharepage" type="button" class="btn btn-outline-info active waves-effect">
+                <figure>
+                    <img src="assets/img/icons/artsculture.png" class="img-fluid z-depth-1" alt="1">
+                    <figcaption>Arts & Culture</figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <div class="col-lg-2 col-md-2 mb-4"> 
+            <button type="button" class="btn btn-outline-info waves-effect">
+                <figure>
+                   <img src="assets/img/icons/birds.png" class="img-fluid z-depth-1" alt="1">
+                    <figcaption>Birds</figcaption>
+               </figure>
+            </button>
+        </div>
+
+        <div class="col-lg-2 col-md-2 mb-4"> 
+            <button type="button" class="btn btn-outline-info waves-effect">
+                <figure>
+                    <img src="assets/img/icons/borewell.png" class="img-fluid z-depth-1" alt="1">
+                    <figcaption>Borewell</figcaption>
+               </figure>
+            </button>
+        </div>
+        <div class="col-lg-2 col-md-2 mb-4"> 
+            <button type="button" class="btn btn-outline-info waves-effect">
+                <figure>
+                     <img src="assets/img/icons/charity.png" class="img-fluid z-depth-1" alt="1">
+                    <figcaption>Charity</figcaption>
+               </figure>
+            </button>
+        </div>
+        <div class="col-lg-2 col-md-2 mb-4"> 
+            <button type="button" class="btn btn-outline-info waves-effect">
+                <figure>
+                <img src="assets/img/icons/community.png" class="img-fluid z-depth-1" alt="1">
+                <figcaption>Community</figcaption>
+               </figure>
+            </button>
+        </div>
+        <div class="col-lg-2 col-md-2 mb-4"> 
+            <button type="button" class="btn btn-outline-info waves-effect">
+                <figure>
+                    <img src="assets/img/icons/creativity.png" class="img-fluid z-depth-1" alt="1">
+                    <figcaption>Creativity</figcaption>
+                 </figure>
+            </button>    
+        </div>
+        <div class="col-lg-2 col-md-2 mb-4"> 
+            <button type="button" class="btn btn-outline-info waves-effect">
+                <figure>
+                    <img src="assets/img/icons/disabled.png" class="img-fluid z-depth-1" alt="1">
+                    <figcaption>Disabled</figcaption>
+                </figure>
+            </button>
+            </div>
+        <div class="col-lg-2 col-md-2 mb-4"> 
+            <button type="button" class="btn btn-outline-info waves-effect">
+                <figure>
+                    <img src="assets/img/icons/education.png" class="img-fluid z-depth-1" alt="1">
+                    <figcaption>Education</figcaption>
+                </figure>
+            </button>
+        </div>
+      
+        <div class="col-lg-2 col-md-2 mb-4"> 
+            <button type="button" class="btn btn-outline-info waves-effect">
+                <figure>
+                    <img src="assets/img/icons/Emergency.png" class="img-fluid z-depth-1" alt="1">
+                    <figcaption>Emergency</figcaption>
+                </figure>
+            </button>
+        </div>
+            <div class="col-lg-2 col-md-2 mb-4"> 
+                <button type="button" class="btn btn-outline-info waves-effect">
+                    <figure>
+                        <img src="assets/img/icons/environment.png" class="img-fluid z-depth-1" alt="1">
+                        <figcaption>Environment</figcaption>
+                    </figure>
+                </button>
+            </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/Group-icon.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Group & Club</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/hunger.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Food & Hunger</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/medical.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Medical</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/memorial.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Funerals & Memorials</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/other.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Others</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/personalcause.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Personal Cause</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/pet-cat.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Pet-Cats</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/pet-dog.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Pet-Dogs</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/qurbani.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Qurbani</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/socialwelfare.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Social Welfare</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/sports.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Sports</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/volunteer.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Volunteer</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/womenempowerment.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Women Empowerment</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 mb-4"> 
+                    <button type="button" class="btn btn-outline-info waves-effect">
+                        <figure>
+                            <img src="assets/img/icons/zakat.png" class="img-fluid z-depth-1" alt="1">
+                            <figcaption>Zakat</figcaption>
+                        </figure>
+                    </button>
+                </div>
+                </div>
+            </div>
+            </div>
+<app-footer></app-footer>
 <router-outlet></router-outlet>
